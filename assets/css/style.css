@@ -1,0 +1,369 @@
+@font-face{
+    font-family:'Graphik-Regular';
+    src: url('../font/Graphik-Regular.woff');
+}
+@font-face {
+    font-family:'Graphik-Medium';
+    src:url('../font/Graphik-Medium.ttf');
+}   
+@font-face {
+    font-family:'Theinhardt-Lt';
+    src:url('../font/Theinhardt-Lt.woff');
+}   
+@font-face {
+    font-family:'TiemposHeadline-Semibold';
+    src:url('../font/TiemposHeadline-Semibold.woff');
+}
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration:none;
+    font-family: 'Graphik-Medium';
+    color:#2b2c2e;
+}
+
+/* ANFANG HEADER + NAV */
+
+
+nav{
+    display:flex;
+    align-items:baseline;
+    justify-content: space-between;
+    padding-left:8%;
+    padding-right:8%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+ul > li > a{
+    padding-right: 35px;
+}
+div{
+    font-family:'TiemposHeadline-Semibold';
+    font-size:30px;
+    padding-right: 10%;
+}
+input{
+    padding:10px 60px;
+    font-family: 'Graphik-Medium';
+    background: #fff;
+    border-radius: 5px;
+    font-size:18px;
+    outline-style: none;
+    margin-top:10px;
+}
+input:hover{
+    background: #000;
+    color: #fff;
+}
+
+/* ENDE HEADER + NAV */
+
+/* ANFANG SECTION 1 */
+
+#sec1{
+    padding-top: 8%;
+}
+#sec1 > h1{
+    text-align:center;
+    font-family: 'Graphik-Regular';
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+#sec1 > div{
+    display:grid;
+    grid-template-columns: 14% 45% 18% 12%;
+    grid-template-rows: 120px;
+    padding-top: 5%;
+}
+
+#sec1 > div > p{
+    grid-column: 2/3;
+    font-family:'Graphik-Medium';
+    font-size:20px;
+    padding-top:15px;
+    word-spacing:3px;
+    line-height:25px;
+    margin: 0;
+}
+#sec1 > div > h1{
+    grid-column:4/5;
+    margin: 0;
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-family: 'Theinhardt-Lt';
+}
+#sec1 > div > h1 > p{
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 0;
+    color:#9fa2a7;
+    padding-top: 7px;
+    font-family: 'Theinhardt-Lt';
+}
+
+/* ENDE SECTION 1 */
+
+/* ANFANG SECTION 2 */
+
+#sec2{
+    padding-top:15%;
+    display: flex;
+}
+#sec2 > img{
+    padding-left: 13%;
+}
+#sec2 > div{
+    padding-left: 2%;
+    padding-right: 12%;
+}
+#sec2 > div > h1{
+    font-family:'TiemposHeadline-Semibold';
+    font-size:65px;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 20%;
+}
+#sec2 > div > h3{
+    font-family:'Graphik-Medium';
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#sec2 > div > p{
+    font-family:'Theinhardt-Lt';
+    margin: 0;
+    color:#848689;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+
+/* ENDE SECTION 2 */
+
+/* ANFANG SECTION 3 */
+
+#sec3{
+    padding-top:10%;
+}
+#sec3 > article{
+    display:flex;
+    background-color: rgb(241,241,244);
+    margin-left: 5%;
+    margin-right:5%;
+}
+#sec3 > article > div{
+    padding:6% 0 0 10%;
+}
+#sec3 > article > img{
+    padding-right: 7%;
+}
+#sec3 > article > div > h1{
+    font-family:'TiemposHeadline-Semibold';
+    font-size:55px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#sec3 > article > div > p{
+    font-family:'Theinhardt-Lt';
+    font-size:20px;
+    color:#848689;
+    margin: 0;
+    line-height:27px;
+    padding-right: 7%;
+}
+#sec3 > article > div > p:nth-of-type(1){
+    padding-left: 4.5%;
+}
+#sec3 > article > div > p:nth-of-type(2){
+    padding-left: 4.5%;
+}
+#sec3 > article > div > p:nth-of-type(3){
+    padding-left: 4.5%;
+}
+
+/* ENDE SECTION 3 */
+
+/* ANFANG SECTION 4 */
+
+#sec4{
+    padding-top: 10%;
+    text-align:center;
+}
+#sec4 > h1{
+    font-family:'TiemposHeadline-Semibold';
+    font-size:55px;
+    margin: 0;
+    padding-bottom: 3%;
+}
+#sec4 > p{
+    font-family:'Theinhardt-Lt';
+    font-size:20px;
+    color:#848689;
+    margin: 0;
+    line-height:35px;
+}
+#sec4 > img{
+    padding-top: 10%;
+}
+#sec4 > p:nth-of-type(3){
+    font-family:'Graphik-Medium';
+    text-align:left;
+    padding-left: 22%;
+    margin: 0;
+    word-spacing: 5px;
+}
+#sec4 > img:nth-of-type(2){
+    padding: 0;
+    position: relative;
+    left:21.5%;
+    top:-250px;
+}
+
+/* ENDE SECTION 4 */
+
+/* ANFANG FOOTER */
+
+footer{
+    padding-top: 5%;
+    text-align: center;
+}
+span{
+    width:80%;
+    height:3px;
+    background:#9fa2a7;
+    margin-bottom:100px;
+    display: inline-block;
+}
+footer > h1{
+    font-family:'TiemposHeadline-Semibold';
+    font-size:55px;
+}
+footer > div {
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    padding-left: 7%;
+}
+footer > div > p{
+    color:#9fa2a7;
+}
+footer > div > p,a{
+    font-family:'Graphik-Medium';
+    font-size:16px;
+}
+
+/* ENDE FOOTER */
+
+
+
+
+
+
+/* ANFANG MEDIA QUERY MAX 786PX */
+
+@media(max-width:786px){
+    nav{
+        display:block;
+        text-align:center;
+    }
+    ul{
+        padding-left:25%;
+    }
+    nav > div{
+        padding-left:10%;
+    }
+    #sec1{
+        text-align:center;
+    }
+    #sec1 > div{
+        display:block;
+        text-align:center;
+    }
+    #sec1 > div > p{
+        padding-left: 9%;
+        padding-bottom: 5%;
+    }
+    #sec1 > div > h1{
+        padding-left:10%;
+    }
+    #sec2{
+        display:block;
+        text-align: center;
+    }
+    #sec2 > img{
+        padding: 0;
+    }
+    #sec2 > div{
+        text-align:center;
+        padding: 0;
+    }
+    #sec3{
+        text-align:center;
+    }
+    #sec3 > article{
+        display:block;
+        margin: 0;
+    }
+    #sec3 > article > div{
+        padding: 0;
+    }
+    #sec3 > article > div > P:nth-of-type(1){
+        padding: 0;
+    }
+    #sec3 > article > div > P:nth-of-type(2){
+        padding: 0;
+    }
+    #sec3 > article > div > P:nth-of-type(3){
+        padding: 0;
+    }
+    #sec3 > article > div > p{
+        padding: 0;
+    }
+    #sec4 > p:nth-of-type(3){
+        padding-left:5%;
+        font-size:15px;
+    }
+    #sec4 > img:nth-of-type(2){
+        position: relative;
+        top:-170px;
+    }
+}
+
+
+/* ANFANG MEDIA QUERY MAX 425PX */
+
+@media (max-width:425px){
+    nav{
+        display: block;
+        padding: 0;
+    }
+    nav > ul{
+        padding-left: 14%;
+    }
+    #sec2{
+        display:block;
+        text-align:center;
+    }
+    #sec2 > div > h3{
+        font-size: 20px;
+    }
+    #sec2 > div > p{
+        font-size:20px;
+        padding: 0 2% 2% 2%;
+    }
+    #sec4{
+        padding: 0 2% 0 2%;
+    }
+    #sec4 > img:nth-of-type(2){
+        position: relative;
+        top:-165px;
+    }
+    #sec4 > p:nth-of-type(3){
+        padding-top: 5%;
+    }
+}
